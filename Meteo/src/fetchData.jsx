@@ -1,6 +1,6 @@
 import axios from "axios";
 const apiUrlCurrentWeather = "https://api.openweathermap.org/data/2.5/weather"
-const apiKey = "4daed5790cf55ef871690215317e95df";
+const apiKey = "inserire apiKey";
 const apiurlForecast = "https://api.openweathermap.org/data/3.0/onecall?";
 console.log(apiurlForecast);
 
