@@ -44,7 +44,7 @@ export const getWeatherData = async (lat, lon) => {
 
 
     const weatherData = response.data;
-
+ 
     return {
       wind: weatherData.current.wind_speed,
       humidity: weatherData.current.humidity,

@@ -19,6 +19,7 @@ min-height: 400px;
     padding: 15px;
     &.active-0{
         border-top-left-radius: 0px;
+        
     }
     background-image: linear-gradient(to bottom, #5374E7, #77B9F5);
 }
@@ -37,6 +38,8 @@ min-height: 400px;
         background-color: #5374E7;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
+        color: white
+        
     }
 
 }

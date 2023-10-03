@@ -70,10 +70,10 @@ const Days = ({ className, days }) => {
             <div className="windBorder">
               <img className="windImg" src={wind} alt="" />
               <div>
-                <p className="p">Wind Speed: {weatherData.wind}</p>
+                <p className="p">Wind Speed: {weatherData.wind.toFixed(1)}</p>
                 <br />
-                <p className="p">The high will be: {weatherData.maxTemp}°C,<br />
-                  the low will be{" "}{weatherData.minTemp}°C</p>
+                <p className="p">The high will be: {weatherData.minTemp.toFixed(1)}°C,<br />
+                  the low will be{" "}{weatherData.minTemp.toFixed(1)}°C</p>
                 <br />
                 <p className="p">Humidity: {weatherData.humidity}%</p>
                 <p className="p">UV: {weatherData.uvIndex}</p>
