@@ -21,6 +21,11 @@ export const StyledMajorCity = styled(MajorCity)`
             display: flex;
             left: 46px;
             flex-direction: column;
+            height: 280px;
+            width: 140px;
+            border-radius: 0 25px 25px 0;
+            background: radial-gradient(circle, #5374E7 0%, #77B9F5 100%);
+            box-shadow: 5px 10px 20px 0 rgba(0,0,0,0.17);
             @media only screen and (min-width: 768px) {
                 left: 20px;
             }
